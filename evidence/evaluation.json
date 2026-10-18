@@ -1,0 +1,334 @@
+{
+  "warning": "Tiny authored synthetic holdout with related vocabulary, not independent real-world evidence. No tuning was performed on this holdout.",
+  "train_records": 72,
+  "holdout_records": 30,
+  "normalized_overlap": 0,
+  "summary": {
+    "candidate": {
+      "correct": 26,
+      "total": 30,
+      "coverage": 1.0,
+      "accuracy_counting_abstention_as_incorrect": 0.8666666666666667,
+      "accuracy_when_answered": 0.8666666666666667
+    },
+    "suggestion": {
+      "correct": 23,
+      "total": 30,
+      "coverage": 0.8333333333333334,
+      "accuracy_counting_abstention_as_incorrect": 0.7666666666666667,
+      "accuracy_when_answered": 0.92
+    },
+    "rules_only": {
+      "correct": 23,
+      "total": 30,
+      "coverage": 0.7666666666666667,
+      "accuracy_counting_abstention_as_incorrect": 0.7666666666666667,
+      "accuracy_when_answered": 1.0
+    }
+  },
+  "predictions": [
+    {
+      "header": "client e-mail",
+      "label": "email",
+      "candidate": "email",
+      "suggestion": "email",
+      "model_score": 0.826,
+      "score_margin": 0.7807,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "email"
+    },
+    {
+      "header": "contact mail address",
+      "label": "email",
+      "candidate": "email",
+      "suggestion": "email",
+      "model_score": 0.8562,
+      "score_margin": 0.8192,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "email"
+    },
+    {
+      "header": "recipient_email_address",
+      "label": "email",
+      "candidate": "email",
+      "suggestion": "email",
+      "model_score": 0.8905,
+      "score_margin": 0.865,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "email"
+    },
+    {
+      "header": "supportEmail",
+      "label": "email",
+      "candidate": "email",
+      "suggestion": "email",
+      "model_score": 0.9617,
+      "score_margin": 0.9516,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "email"
+    },
+    {
+      "header": "inbox",
+      "label": "email",
+      "candidate": "identifier",
+      "suggestion": "review_required",
+      "model_score": 0.397,
+      "score_margin": 0.241,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "review_required"
+    },
+    {
+      "header": "invoice_due_date",
+      "label": "date",
+      "candidate": "date",
+      "suggestion": "date",
+      "model_score": 0.7959,
+      "score_margin": 0.7116,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "date"
+    },
+    {
+      "header": "date issued",
+      "label": "date",
+      "candidate": "date",
+      "suggestion": "date",
+      "model_score": 0.9593,
+      "score_margin": 0.9495,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "date"
+    },
+    {
+      "header": "fulfillmentDate",
+      "label": "date",
+      "candidate": "date",
+      "suggestion": "date",
+      "model_score": 0.8516,
+      "score_margin": 0.7958,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "date"
+    },
+    {
+      "header": "payment deadline",
+      "label": "date",
+      "candidate": "date",
+      "suggestion": "date",
+      "model_score": 0.7347,
+      "score_margin": 0.6428,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "date"
+    },
+    {
+      "header": "maturity",
+      "label": "date",
+      "candidate": "quantity",
+      "suggestion": "quantity",
+      "model_score": 0.5122,
+      "score_margin": 0.3526,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "review_required"
+    },
+    {
+      "header": "gross_total",
+      "label": "money",
+      "candidate": "money",
+      "suggestion": "money",
+      "model_score": 0.8215,
+      "score_margin": 0.7635,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "money"
+    },
+    {
+      "header": "amount payable",
+      "label": "money",
+      "candidate": "money",
+      "suggestion": "money",
+      "model_score": 0.8575,
+      "score_margin": 0.8151,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "money"
+    },
+    {
+      "header": "unit_cost",
+      "label": "money",
+      "candidate": "money",
+      "suggestion": "money",
+      "model_score": 0.7094,
+      "score_margin": 0.5568,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "money"
+    },
+    {
+      "header": "service fee",
+      "label": "money",
+      "candidate": "money",
+      "suggestion": "money",
+      "model_score": 0.4928,
+      "score_margin": 0.3377,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "money"
+    },
+    {
+      "header": "remittance",
+      "label": "money",
+      "candidate": "money",
+      "suggestion": "review_required",
+      "model_score": 0.3542,
+      "score_margin": 0.105,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "review_required"
+    },
+    {
+      "header": "invoice_ref",
+      "label": "identifier",
+      "candidate": "identifier",
+      "suggestion": "identifier",
+      "model_score": 0.6431,
+      "score_margin": 0.4972,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "identifier"
+    },
+    {
+      "header": "supplierID",
+      "label": "identifier",
+      "candidate": "identifier",
+      "suggestion": "identifier",
+      "model_score": 0.8059,
+      "score_margin": 0.7571,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "identifier"
+    },
+    {
+      "header": "stock code",
+      "label": "identifier",
+      "candidate": "identifier",
+      "suggestion": "identifier",
+      "model_score": 0.5416,
+      "score_margin": 0.3812,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "identifier"
+    },
+    {
+      "header": "transaction reference",
+      "label": "identifier",
+      "candidate": "identifier",
+      "suggestion": "identifier",
+      "model_score": 0.8727,
+      "score_margin": 0.8333,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "identifier"
+    },
+    {
+      "header": "tracking key",
+      "label": "identifier",
+      "candidate": "identifier",
+      "suggestion": "review_required",
+      "model_score": 0.2516,
+      "score_margin": 0.0597,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "review_required"
+    },
+    {
+      "header": "ordered_qty",
+      "label": "quantity",
+      "candidate": "quantity",
+      "suggestion": "quantity",
+      "model_score": 0.6624,
+      "score_margin": 0.5304,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "quantity"
+    },
+    {
+      "header": "total units",
+      "label": "quantity",
+      "candidate": "money",
+      "suggestion": "review_required",
+      "model_score": 0.497,
+      "score_margin": 0.1174,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "review_required"
+    },
+    {
+      "header": "number_of_pieces",
+      "label": "quantity",
+      "candidate": "quantity",
+      "suggestion": "quantity",
+      "model_score": 0.776,
+      "score_margin": 0.6658,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "quantity"
+    },
+    {
+      "header": "items_count",
+      "label": "quantity",
+      "candidate": "quantity",
+      "suggestion": "quantity",
+      "model_score": 0.9112,
+      "score_margin": 0.884,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "quantity"
+    },
+    {
+      "header": "volume",
+      "label": "quantity",
+      "candidate": "description",
+      "suggestion": "description",
+      "model_score": 0.4639,
+      "score_margin": 0.3308,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "review_required"
+    },
+    {
+      "header": "additional notes",
+      "label": "description",
+      "candidate": "description",
+      "suggestion": "description",
+      "model_score": 0.7387,
+      "score_margin": 0.6705,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "description"
+    },
+    {
+      "header": "product details",
+      "label": "description",
+      "candidate": "description",
+      "suggestion": "description",
+      "model_score": 0.7285,
+      "score_margin": 0.6127,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "description"
+    },
+    {
+      "header": "service memo",
+      "label": "description",
+      "candidate": "description",
+      "suggestion": "description",
+      "model_score": 0.6557,
+      "score_margin": 0.5487,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "description"
+    },
+    {
+      "header": "line_item_description",
+      "label": "description",
+      "candidate": "description",
+      "suggestion": "description",
+      "model_score": 0.8037,
+      "score_margin": 0.7379,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "description"
+    },
+    {
+      "header": "narrative",
+      "label": "description",
+      "candidate": "description",
+      "suggestion": "review_required",
+      "model_score": 0.4422,
+      "score_margin": 0.2723,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "rules_only": "review_required"
+    }
+  ],
+  "runtime_seconds": 0.04567714299992076,
+  "python": "3.12.14",
+  "sklearn": "1.8.0"
+}

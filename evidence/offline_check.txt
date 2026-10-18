@@ -1,0 +1,13 @@
+{
+  "check": "Real CLI executed with socket connection methods disabled",
+  "network_attempts": 0,
+  "source_unchanged": true,
+  "source_sha256": "a2a64e05f4d12f4d4cd44db1d6377e307a847e985e1fbf113dda203ffc8bc803",
+  "rows": 3,
+  "runtime": {
+    "seconds": 0.033249,
+    "sklearn": "1.8.0"
+  },
+  "python": "3.12.14",
+  "timestamp_utc": "2026-10-18T09:15:29.757509+00:00"
+}

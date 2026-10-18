@@ -1,0 +1,40 @@
+test_baseline_ambiguous (test_review.ReviewTests.test_baseline_ambiguous) ... ok
+test_bom_and_quoted_commas (test_review.ReviewTests.test_bom_and_quoted_commas) ... ok
+test_cli_end_to_end (test_review.ReviewTests.test_cli_end_to_end) ... ok
+test_cli_refuses_existing_output (test_review.ReviewTests.test_cli_refuses_existing_output) ... ok
+test_cli_refuses_input_overwrite (test_review.ReviewTests.test_cli_refuses_input_overwrite) ... ok
+test_csv_injection_never_executed (test_review.ReviewTests.test_csv_injection_never_executed) ... ok
+test_date (test_review.ReviewTests.test_date) ... ok
+test_duplicate_headers (test_review.ReviewTests.test_duplicate_headers) ... ok
+test_email (test_review.ReviewTests.test_email) ... ok
+test_empty (test_review.ReviewTests.test_empty) ... ok
+test_empty_data_has_no_validation (test_review.ReviewTests.test_empty_data_has_no_validation) ... ok
+test_empty_header (test_review.ReviewTests.test_empty_header) ... ok
+test_html_escape (test_review.ReviewTests.test_html_escape) ... ok
+test_identifier_unvalidated (test_review.ReviewTests.test_identifier_unvalidated) ... ok
+test_learned_classifier_runs (test_review.ReviewTests.test_learned_classifier_runs) ... ok
+test_limit_columns (test_review.ReviewTests.test_limit_columns) ... ok
+test_limit_rows (test_review.ReviewTests.test_limit_rows) ... ok
+test_missing_and_invalid_separate (test_review.ReviewTests.test_missing_and_invalid_separate) ... ok
+test_money_finite (test_review.ReviewTests.test_money_finite) ... ok
+test_no_train_test_header_overlap (test_review.ReviewTests.test_no_train_test_header_overlap) ... ok
+test_normalization (test_review.ReviewTests.test_normalization) ... ok
+test_quantity_contract (test_review.ReviewTests.test_quantity_contract) ... ok
+test_ragged (test_review.ReviewTests.test_ragged) ... ok
+test_source_hash (test_review.ReviewTests.test_source_hash) ... ok
+test_unknown_abstains (test_review.ReviewTests.test_unknown_abstains) ... ok
+test_cli_duplicate_key (test_schema.SchemaTests.test_cli_duplicate_key) ... ok
+test_cli_malformed (test_schema.SchemaTests.test_cli_malformed) ... ok
+test_cli_null (test_schema.SchemaTests.test_cli_null) ... ok
+test_cli_prevent_schema_overwrite (test_schema.SchemaTests.test_cli_prevent_schema_overwrite) ... ok
+test_cli_schema (test_schema.SchemaTests.test_cli_schema) ... ok
+test_disable_validation (test_schema.SchemaTests.test_disable_validation) ... ok
+test_invalid_label (test_schema.SchemaTests.test_invalid_label) ... ok
+test_override_and_model_preserved (test_schema.SchemaTests.test_override_and_model_preserved) ... ok
+test_schema_not_object (test_schema.SchemaTests.test_schema_not_object) ... ok
+test_unknown_column (test_schema.SchemaTests.test_unknown_column) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 7.503s
+
+OK
