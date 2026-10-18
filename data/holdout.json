@@ -1,0 +1,122 @@
+[
+  {
+    "header": "client e-mail",
+    "label": "email"
+  },
+  {
+    "header": "contact mail address",
+    "label": "email"
+  },
+  {
+    "header": "recipient_email_address",
+    "label": "email"
+  },
+  {
+    "header": "supportEmail",
+    "label": "email"
+  },
+  {
+    "header": "inbox",
+    "label": "email"
+  },
+  {
+    "header": "invoice_due_date",
+    "label": "date"
+  },
+  {
+    "header": "date issued",
+    "label": "date"
+  },
+  {
+    "header": "fulfillmentDate",
+    "label": "date"
+  },
+  {
+    "header": "payment deadline",
+    "label": "date"
+  },
+  {
+    "header": "maturity",
+    "label": "date"
+  },
+  {
+    "header": "gross_total",
+    "label": "money"
+  },
+  {
+    "header": "amount payable",
+    "label": "money"
+  },
+  {
+    "header": "unit_cost",
+    "label": "money"
+  },
+  {
+    "header": "service fee",
+    "label": "money"
+  },
+  {
+    "header": "remittance",
+    "label": "money"
+  },
+  {
+    "header": "invoice_ref",
+    "label": "identifier"
+  },
+  {
+    "header": "supplierID",
+    "label": "identifier"
+  },
+  {
+    "header": "stock code",
+    "label": "identifier"
+  },
+  {
+    "header": "transaction reference",
+    "label": "identifier"
+  },
+  {
+    "header": "tracking key",
+    "label": "identifier"
+  },
+  {
+    "header": "ordered_qty",
+    "label": "quantity"
+  },
+  {
+    "header": "total units",
+    "label": "quantity"
+  },
+  {
+    "header": "number_of_pieces",
+    "label": "quantity"
+  },
+  {
+    "header": "items_count",
+    "label": "quantity"
+  },
+  {
+    "header": "volume",
+    "label": "quantity"
+  },
+  {
+    "header": "additional notes",
+    "label": "description"
+  },
+  {
+    "header": "product details",
+    "label": "description"
+  },
+  {
+    "header": "service memo",
+    "label": "description"
+  },
+  {
+    "header": "line_item_description",
+    "label": "description"
+  },
+  {
+    "header": "narrative",
+    "label": "description"
+  }
+]

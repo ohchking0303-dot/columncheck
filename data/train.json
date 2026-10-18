@@ -1,0 +1,290 @@
+[
+  {
+    "header": "email",
+    "label": "email"
+  },
+  {
+    "header": "email address",
+    "label": "email"
+  },
+  {
+    "header": "customer email",
+    "label": "email"
+  },
+  {
+    "header": "contact email",
+    "label": "email"
+  },
+  {
+    "header": "billing email",
+    "label": "email"
+  },
+  {
+    "header": "mail address",
+    "label": "email"
+  },
+  {
+    "header": "e-mail",
+    "label": "email"
+  },
+  {
+    "header": "email contact",
+    "label": "email"
+  },
+  {
+    "header": "recipient email",
+    "label": "email"
+  },
+  {
+    "header": "sender email",
+    "label": "email"
+  },
+  {
+    "header": "electronic mail",
+    "label": "email"
+  },
+  {
+    "header": "work email",
+    "label": "email"
+  },
+  {
+    "header": "date",
+    "label": "date"
+  },
+  {
+    "header": "invoice date",
+    "label": "date"
+  },
+  {
+    "header": "due date",
+    "label": "date"
+  },
+  {
+    "header": "created date",
+    "label": "date"
+  },
+  {
+    "header": "payment date",
+    "label": "date"
+  },
+  {
+    "header": "order date",
+    "label": "date"
+  },
+  {
+    "header": "delivery date",
+    "label": "date"
+  },
+  {
+    "header": "issued on",
+    "label": "date"
+  },
+  {
+    "header": "paid on",
+    "label": "date"
+  },
+  {
+    "header": "deadline",
+    "label": "date"
+  },
+  {
+    "header": "billing date",
+    "label": "date"
+  },
+  {
+    "header": "service date",
+    "label": "date"
+  },
+  {
+    "header": "amount",
+    "label": "money"
+  },
+  {
+    "header": "total amount",
+    "label": "money"
+  },
+  {
+    "header": "invoice total",
+    "label": "money"
+  },
+  {
+    "header": "price",
+    "label": "money"
+  },
+  {
+    "header": "unit price",
+    "label": "money"
+  },
+  {
+    "header": "subtotal",
+    "label": "money"
+  },
+  {
+    "header": "net amount",
+    "label": "money"
+  },
+  {
+    "header": "gross amount",
+    "label": "money"
+  },
+  {
+    "header": "balance due",
+    "label": "money"
+  },
+  {
+    "header": "fee",
+    "label": "money"
+  },
+  {
+    "header": "cost",
+    "label": "money"
+  },
+  {
+    "header": "payment amount",
+    "label": "money"
+  },
+  {
+    "header": "id",
+    "label": "identifier"
+  },
+  {
+    "header": "invoice id",
+    "label": "identifier"
+  },
+  {
+    "header": "customer id",
+    "label": "identifier"
+  },
+  {
+    "header": "order id",
+    "label": "identifier"
+  },
+  {
+    "header": "reference",
+    "label": "identifier"
+  },
+  {
+    "header": "reference number",
+    "label": "identifier"
+  },
+  {
+    "header": "sku",
+    "label": "identifier"
+  },
+  {
+    "header": "product code",
+    "label": "identifier"
+  },
+  {
+    "header": "account code",
+    "label": "identifier"
+  },
+  {
+    "header": "record identifier",
+    "label": "identifier"
+  },
+  {
+    "header": "transaction id",
+    "label": "identifier"
+  },
+  {
+    "header": "invoice number",
+    "label": "identifier"
+  },
+  {
+    "header": "quantity",
+    "label": "quantity"
+  },
+  {
+    "header": "qty",
+    "label": "quantity"
+  },
+  {
+    "header": "count",
+    "label": "quantity"
+  },
+  {
+    "header": "item count",
+    "label": "quantity"
+  },
+  {
+    "header": "units",
+    "label": "quantity"
+  },
+  {
+    "header": "units sold",
+    "label": "quantity"
+  },
+  {
+    "header": "number of items",
+    "label": "quantity"
+  },
+  {
+    "header": "stock quantity",
+    "label": "quantity"
+  },
+  {
+    "header": "hours worked",
+    "label": "quantity"
+  },
+  {
+    "header": "pieces",
+    "label": "quantity"
+  },
+  {
+    "header": "ordered quantity",
+    "label": "quantity"
+  },
+  {
+    "header": "headcount",
+    "label": "quantity"
+  },
+  {
+    "header": "description",
+    "label": "description"
+  },
+  {
+    "header": "notes",
+    "label": "description"
+  },
+  {
+    "header": "memo",
+    "label": "description"
+  },
+  {
+    "header": "comment",
+    "label": "description"
+  },
+  {
+    "header": "details",
+    "label": "description"
+  },
+  {
+    "header": "item description",
+    "label": "description"
+  },
+  {
+    "header": "service description",
+    "label": "description"
+  },
+  {
+    "header": "product name",
+    "label": "description"
+  },
+  {
+    "header": "customer name",
+    "label": "description"
+  },
+  {
+    "header": "summary",
+    "label": "description"
+  },
+  {
+    "header": "title",
+    "label": "description"
+  },
+  {
+    "header": "message",
+    "label": "description"
+  }
+]
