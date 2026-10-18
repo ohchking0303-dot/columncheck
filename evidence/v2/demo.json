@@ -1,0 +1,119 @@
+{
+  "tool": "ColumnCheck prototype",
+  "source_sha256": "a2a64e05f4d12f4d4cd44db1d6377e307a847e985e1fbf113dda203ffc8bc803",
+  "rows": 3,
+  "columns": [
+    {
+      "header": "invoice_id",
+      "candidate": "identifier",
+      "suggestion": "identifier",
+      "model_score": 0.8305,
+      "score_margin": 0.7622,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "effective_label": "identifier",
+      "label_source": "model_suggestion",
+      "rules_only_suggestion": "identifier",
+      "nonempty_values": 3,
+      "checked_values": 0,
+      "invalid_record_numbers": [],
+      "missing_record_numbers": [],
+      "validator": "no_format_validation"
+    },
+    {
+      "header": "customer_email",
+      "candidate": "email",
+      "suggestion": "email",
+      "model_score": 0.8154,
+      "score_margin": 0.7452,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "effective_label": "email",
+      "label_source": "model_suggestion",
+      "rules_only_suggestion": "email",
+      "nonempty_values": 2,
+      "checked_values": 2,
+      "invalid_record_numbers": [
+        3
+      ],
+      "missing_record_numbers": [
+        4
+      ],
+      "validator": "email"
+    },
+    {
+      "header": "invoice_date",
+      "candidate": "date",
+      "suggestion": "date",
+      "model_score": 0.8163,
+      "score_margin": 0.7252,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "effective_label": "date",
+      "label_source": "user_schema",
+      "rules_only_suggestion": "date",
+      "nonempty_values": 3,
+      "checked_values": 3,
+      "invalid_record_numbers": [
+        3
+      ],
+      "missing_record_numbers": [],
+      "validator": "date"
+    },
+    {
+      "header": "amount",
+      "candidate": "money",
+      "suggestion": "money",
+      "model_score": 0.9083,
+      "score_margin": 0.8699,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "effective_label": "money",
+      "label_source": "model_suggestion",
+      "rules_only_suggestion": "money",
+      "nonempty_values": 3,
+      "checked_values": 3,
+      "invalid_record_numbers": [
+        3
+      ],
+      "missing_record_numbers": [],
+      "validator": "money"
+    },
+    {
+      "header": "quantity",
+      "candidate": "quantity",
+      "suggestion": "quantity",
+      "model_score": 0.9167,
+      "score_margin": 0.8911,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "effective_label": "quantity",
+      "label_source": "model_suggestion",
+      "rules_only_suggestion": "quantity",
+      "nonempty_values": 3,
+      "checked_values": 3,
+      "invalid_record_numbers": [
+        3
+      ],
+      "missing_record_numbers": [],
+      "validator": "quantity"
+    },
+    {
+      "header": "notes",
+      "candidate": "description",
+      "suggestion": "description",
+      "model_score": 0.7962,
+      "score_margin": 0.7358,
+      "note": "Model scores are uncalibrated, not correctness probabilities.",
+      "effective_label": "description",
+      "label_source": "model_suggestion",
+      "rules_only_suggestion": "description",
+      "nonempty_values": 3,
+      "checked_values": 0,
+      "invalid_record_numbers": [],
+      "missing_record_numbers": [],
+      "validator": "no_format_validation"
+    }
+  ],
+  "privacy": "No network calls; report contains headers and record numbers, not cell contents.",
+  "warning": "Suggestions need human review; validity of meaning, identifiers, currency and business rules is not established.",
+  "runtime": {
+    "seconds": 0.024274,
+    "sklearn": "1.8.0"
+  }
+}

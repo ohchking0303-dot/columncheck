@@ -1,0 +1,119 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>ColumnCheck review</title><style>body{max-width:1000px;margin:3rem auto;font:16px system-ui;background:#f5f7fb;color:#16243a}pre{white-space:pre-wrap;background:white;padding:2rem;border-radius:12px}h1{color:#205ba8}</style><h1>ColumnCheck review</h1><p>Local ML suggestions. Human review required. Source CSV is unchanged.</p><pre>{
+  &quot;tool&quot;: &quot;ColumnCheck prototype&quot;,
+  &quot;source_sha256&quot;: &quot;a2a64e05f4d12f4d4cd44db1d6377e307a847e985e1fbf113dda203ffc8bc803&quot;,
+  &quot;rows&quot;: 3,
+  &quot;columns&quot;: [
+    {
+      &quot;header&quot;: &quot;invoice_id&quot;,
+      &quot;candidate&quot;: &quot;identifier&quot;,
+      &quot;suggestion&quot;: &quot;identifier&quot;,
+      &quot;model_score&quot;: 0.8305,
+      &quot;score_margin&quot;: 0.7622,
+      &quot;note&quot;: &quot;Model scores are uncalibrated, not correctness probabilities.&quot;,
+      &quot;effective_label&quot;: &quot;identifier&quot;,
+      &quot;label_source&quot;: &quot;model_suggestion&quot;,
+      &quot;rules_only_suggestion&quot;: &quot;identifier&quot;,
+      &quot;nonempty_values&quot;: 3,
+      &quot;checked_values&quot;: 0,
+      &quot;invalid_record_numbers&quot;: [],
+      &quot;missing_record_numbers&quot;: [],
+      &quot;validator&quot;: &quot;no_format_validation&quot;
+    },
+    {
+      &quot;header&quot;: &quot;customer_email&quot;,
+      &quot;candidate&quot;: &quot;email&quot;,
+      &quot;suggestion&quot;: &quot;email&quot;,
+      &quot;model_score&quot;: 0.8154,
+      &quot;score_margin&quot;: 0.7452,
+      &quot;note&quot;: &quot;Model scores are uncalibrated, not correctness probabilities.&quot;,
+      &quot;effective_label&quot;: &quot;email&quot;,
+      &quot;label_source&quot;: &quot;model_suggestion&quot;,
+      &quot;rules_only_suggestion&quot;: &quot;email&quot;,
+      &quot;nonempty_values&quot;: 2,
+      &quot;checked_values&quot;: 2,
+      &quot;invalid_record_numbers&quot;: [
+        3
+      ],
+      &quot;missing_record_numbers&quot;: [
+        4
+      ],
+      &quot;validator&quot;: &quot;email&quot;
+    },
+    {
+      &quot;header&quot;: &quot;invoice_date&quot;,
+      &quot;candidate&quot;: &quot;date&quot;,
+      &quot;suggestion&quot;: &quot;date&quot;,
+      &quot;model_score&quot;: 0.8163,
+      &quot;score_margin&quot;: 0.7252,
+      &quot;note&quot;: &quot;Model scores are uncalibrated, not correctness probabilities.&quot;,
+      &quot;effective_label&quot;: &quot;date&quot;,
+      &quot;label_source&quot;: &quot;user_schema&quot;,
+      &quot;rules_only_suggestion&quot;: &quot;date&quot;,
+      &quot;nonempty_values&quot;: 3,
+      &quot;checked_values&quot;: 3,
+      &quot;invalid_record_numbers&quot;: [
+        3
+      ],
+      &quot;missing_record_numbers&quot;: [],
+      &quot;validator&quot;: &quot;date&quot;
+    },
+    {
+      &quot;header&quot;: &quot;amount&quot;,
+      &quot;candidate&quot;: &quot;money&quot;,
+      &quot;suggestion&quot;: &quot;money&quot;,
+      &quot;model_score&quot;: 0.9083,
+      &quot;score_margin&quot;: 0.8699,
+      &quot;note&quot;: &quot;Model scores are uncalibrated, not correctness probabilities.&quot;,
+      &quot;effective_label&quot;: &quot;money&quot;,
+      &quot;label_source&quot;: &quot;model_suggestion&quot;,
+      &quot;rules_only_suggestion&quot;: &quot;money&quot;,
+      &quot;nonempty_values&quot;: 3,
+      &quot;checked_values&quot;: 3,
+      &quot;invalid_record_numbers&quot;: [
+        3
+      ],
+      &quot;missing_record_numbers&quot;: [],
+      &quot;validator&quot;: &quot;money&quot;
+    },
+    {
+      &quot;header&quot;: &quot;quantity&quot;,
+      &quot;candidate&quot;: &quot;quantity&quot;,
+      &quot;suggestion&quot;: &quot;quantity&quot;,
+      &quot;model_score&quot;: 0.9167,
+      &quot;score_margin&quot;: 0.8911,
+      &quot;note&quot;: &quot;Model scores are uncalibrated, not correctness probabilities.&quot;,
+      &quot;effective_label&quot;: &quot;quantity&quot;,
+      &quot;label_source&quot;: &quot;model_suggestion&quot;,
+      &quot;rules_only_suggestion&quot;: &quot;quantity&quot;,
+      &quot;nonempty_values&quot;: 3,
+      &quot;checked_values&quot;: 3,
+      &quot;invalid_record_numbers&quot;: [
+        3
+      ],
+      &quot;missing_record_numbers&quot;: [],
+      &quot;validator&quot;: &quot;quantity&quot;
+    },
+    {
+      &quot;header&quot;: &quot;notes&quot;,
+      &quot;candidate&quot;: &quot;description&quot;,
+      &quot;suggestion&quot;: &quot;description&quot;,
+      &quot;model_score&quot;: 0.7962,
+      &quot;score_margin&quot;: 0.7358,
+      &quot;note&quot;: &quot;Model scores are uncalibrated, not correctness probabilities.&quot;,
+      &quot;effective_label&quot;: &quot;description&quot;,
+      &quot;label_source&quot;: &quot;model_suggestion&quot;,
+      &quot;rules_only_suggestion&quot;: &quot;description&quot;,
+      &quot;nonempty_values&quot;: 3,
+      &quot;checked_values&quot;: 0,
+      &quot;invalid_record_numbers&quot;: [],
+      &quot;missing_record_numbers&quot;: [],
+      &quot;validator&quot;: &quot;no_format_validation&quot;
+    }
+  ],
+  &quot;privacy&quot;: &quot;No network calls; report contains headers and record numbers, not cell contents.&quot;,
+  &quot;warning&quot;: &quot;Suggestions need human review; validity of meaning, identifiers, currency and business rules is not established.&quot;,
+  &quot;runtime&quot;: {
+    &quot;seconds&quot;: 0.024274,
+    &quot;sklearn&quot;: &quot;1.8.0&quot;
+  }
+}</pre></html>
