@@ -1,0 +1,4 @@
+invoice_id,customer_email,invoice_date,amount,quantity,notes
+INV-001,alice@example.test,2026-10-01,125.50,2,Original synthetic example
+INV-002,bad-address,2026-02-30,not-a-number,-1,Needs manual review
+INV-003,,2026-10-15,49.99,1,Missing email is reported separately
